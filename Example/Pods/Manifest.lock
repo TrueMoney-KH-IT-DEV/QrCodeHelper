@@ -1,0 +1,16 @@
+PODS:
+  - QrCodeHelper (0.1.0)
+
+DEPENDENCIES:
+  - QrCodeHelper (from `../`)
+
+EXTERNAL SOURCES:
+  QrCodeHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QrCodeHelper: f18478b58cee0dbb795ed082a4eef5a4f4cb5754
+
+PODFILE CHECKSUM: 926210740bcd2bb7d48e4d0dfb2ce2073d2dd85f
+
+COCOAPODS: 1.8.4

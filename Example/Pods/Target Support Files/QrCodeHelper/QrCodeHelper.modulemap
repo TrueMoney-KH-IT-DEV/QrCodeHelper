@@ -1,0 +1,6 @@
+framework module QrCodeHelper {
+  umbrella header "QrCodeHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

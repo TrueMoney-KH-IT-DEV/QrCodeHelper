@@ -24,8 +24,8 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/samrith.yoeun@gmail.com/QrCodeHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'samrith.yoeun@gmail.com' => 'sam.yoeun@pathmazing.com' }
-  s.source           = { :git => 'https://github.com/samrith.yoeun@gmail.com/QrCodeHelper.git', :tag => s.version.to_s }
+  s.author           = { 'samrith.yoeun@gmail.com' => 'samrith.yoeun@gmail.com'}
+  s.source           = { :git => 'https://github.com/samrithyoeun/QrCodeHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

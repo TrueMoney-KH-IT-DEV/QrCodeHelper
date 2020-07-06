@@ -7,17 +7,31 @@
 //
 
 import UIKit
+import QrCodeHelper
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+        let imageView = UIImageView(frame: CGRect(x: 50, y: 50, width: 250, height: 250))
+        self.view.addSubview(imageView)
+        
+        let content = "this is testing"
+        imageView.setQrCode(embededContent: content,
+                            options: [.embeddedLogo("logo", size: CGSize(width: 80, height: 80)),
+                                      .invertColor,
+                                      .tintColor(color: .red)])
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       
+        let scanner = QrCodeScanner()
+        let data = scanner.scanQr(from: UIImage(named: "qrimage"))
+        if !data.isEmpty {
+            let label = UILabel(frame: CGRect(x: 50, y: 400, width: 500, height: 20))
+            label.text = "Data from qr code : " + data
+            view.addSubview(label)
+        }
+        
     }
 
 }
