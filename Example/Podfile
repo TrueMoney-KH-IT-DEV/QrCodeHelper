@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QrCodeHelper_Example' do
+  pod 'QrCodeHelper', :path => '../'
+
+  target 'QrCodeHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
