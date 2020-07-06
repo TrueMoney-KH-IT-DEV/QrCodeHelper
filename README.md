@@ -27,3 +27,4 @@ samrith.yoeun@gmail.com, sam.yoeun@pathmazing.com
 ## License
 
 QrCodeHelper is available under the MIT license. See the LICENSE file for more info.
+# QrCodeHelper
