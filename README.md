@@ -24,7 +24,7 @@ QrCodeHelper can help you to generate the QrCode with multiple options:
 - invert the qr to have the transparent background effect 
 - apply the custom tint color to the QrCode 
 
-![image](Screen Shot 2020-07-11 at 7.57.10 PM.png)
+![image](preview.png)
 
 ## Usage 
 QrCodeHelper was created as part of UIImageView extension, all you need to do is call setQrCode funtions and give the appropriate param 
