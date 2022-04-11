@@ -67,7 +67,7 @@ public extension UIImageView {
     /// generated a new QR Code with the content of String that were passed into the param
     /// - parameter content: String that will be embedded into QR Code
     func generateQrCode(_ content: String)  -> CIImage? {
-        let data = content.data(using: String.Encoding.ascii, allowLossyConversion: false)
+        let data = content.data(using: String.Encoding.utf8, allowLossyConversion: false)
         
         let filter = CIFilter(name: "CIQRCodeGenerator")
         
